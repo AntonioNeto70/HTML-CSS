@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.432);
+        }
+        
+        section#assuntos {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        aside {
+            background-color: rgb(167, 167, 167);
+            padding-left: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Noticias</a>
+            <a href="#">Politica</a>
+            <a href="#">Esportes</a>
+            <a href="#">Tecnologia</a>
+        </nav>
+        </header>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Noticias Politica Esportes</h1>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nostrum ducimus quas alias iure omnis, molestiae ea ipsa asperiores aliquam. Expedita error beatae minus quibusdam animi velit! Architecto, suscipit autem.</p>
+                <aside>
+                    <p>Artigo escrito por José Noticioso</p>
+                </aside>
+            </article>
+        </section>
+        <section id="politica">
+            <article>
+                <h2>Política no Brasil e no Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laudantium assumenda corrupti ipsum neque, perspiciatis dolores voluptate necessitatibus, velit praesentium nulla incidunt reiciendis debitis quia voluptatum sequi, quae aliquam ipsam.</p>
+                <aside>
+                    <p>Artigo escrito por José Politicoso</p>
+                </aside>
+            </article>
+
+        </section>
+        <section id="esportes">
+            <article>
+                <h2>Flamengo Ganha Sexteto em 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab vero numquam mollitia rem error quam nam ullam facere, magnam alias eum placeat tempore sit, natus quaerat sunt impedit ipsam.</p>
+                <aside>
+                    <p>Artigo escrito por José Flamenguista</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Antonio Neto</p>
+    </footer>
+</body>
+</html>
